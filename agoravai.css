@@ -1,0 +1,76 @@
+body{background-color: rgb(30,30,30);
+    color: white;}
+    div.row{margin-bottom: 15px;}
+    .link{text-decoration: none;
+    display: block;}
+    /* sidebar */
+    nav{
+        background-color: rgb(48,48,48);
+        padding: 20px;
+    border-radius: 10px;
+    color: white;}
+    .criar{border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px}
+    .biblioteca{color: grey;
+    margin-bottom: 20px;}
+    a.criar{color: black;
+    text-decoration: none;}
+    
+    /*section*/
+    .col-md-9{color: rgb(255, 255, 255);
+        background-color: rgb(48, 48, 48);
+        padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 0px;}
+    div.hej{width: 32%;
+        display: inline-block;}
+    div.tuto{width: 32%;
+            display: inline-block;}
+    div.jem{width: 32%;
+            display: inline-block;}
+    img.hej{width: 200px;}
+    img.tuto{width: 200px;}
+    img.jem{width: 200px;}
+    
+    .singlescards{color: rgb(255, 255, 255);
+        background-color: rgb(48, 48, 48);
+        padding: 20px;
+        border-radius: 10px;
+    margin-bottom: 10px;}
+    .card{color: white;
+    display: inline-flex;
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    border-radius: 10px;}
+    
+    
+    
+    
+    
+    @media screen and (max-width: 768px) {
+        div.col-3{width:100%;
+            margin-bottom: 20px;}
+        .col-md-9{color: rgb(255, 255, 255);
+            background-color: rgb(48, 48, 48);
+            padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+        div.hej{width: 49%;
+            display: inline-block;}
+            div.jem{width: 50%;
+            padding-left: 25%;
+    }
+            div.tuto{width:49%;
+            display: inline-block;}
+        img.hej{width: 250px;}
+        img.tuto{width: 250px;}
+        img.jem{width: 250px;}
+        div.play{width: 40%;}
+        /*ajudinha do chat gpt, nunca saberia disso sozinho*/
+        section.col-3 {
+            flex: 1 1 50%;
+            max-width: 50%;
+        margin-bottom: 5px;}
+    }
